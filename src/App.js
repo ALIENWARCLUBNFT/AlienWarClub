@@ -13,7 +13,7 @@ function App() {
        
          
         >
-          COMING TO SOLANA SOON....
+          COMING SOON TO SOLANA....
         </p>
        <div style={{display:"flex", alignItems:"center"}}>
    <span className="joinText" style={{fontSize:"35px"}}> JOIN US ON</span>
