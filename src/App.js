@@ -8,16 +8,16 @@ function App() {
         <img src={alien} className="App-logo" alt="logo" />
         <p>
          </p>
-        <a
+        <p
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+       
+       
+         
         >
           COMING SOON....
-        </a>
+        </p>
        
-          JOIN US ON
+         <span style={{fontSize:"35px"}}> JOIN US ON</span>
         <ul className="list-reset" style={{listStyleType:"none", display:"flex", padding:"0"}}>
        
        <li>
