@@ -1,4 +1,4 @@
-import alien from './Assets/aliens1.png';
+import alien from './Assets/Website-banner.png';
 import './App.css';
 
 function App() {
