@@ -49,3 +49,15 @@
     line-height: 100px;
   }
 }
+@media only screen and (max-width:700px){
+  .text-container {
+    padding: 57px 0px;
+
+  }
+  .App-header {
+    height: 100vh;
+  }
+  .App-link {
+    font-size: 33px;
+  }
+}

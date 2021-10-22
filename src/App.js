@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header" style={{textAlign:"center"}}>
         <img src={alien} style={{width:"100%"}} className="App-logo" alt="logo" />
-      <div style={{position:"absolute", top:"0", display:"flex", flexDirection:"column", alignItems:"center"}}>
+      <div className="text-container" style={{position:"absolute", top:"0", display:"flex", flexDirection:"column", alignItems:"center"}}>
         <p
           className="App-link"
        
