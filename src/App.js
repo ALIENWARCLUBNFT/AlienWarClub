@@ -16,7 +16,7 @@ function App() {
         >
           COMING SOON....
         </a>
-        <div>
+       
           JOIN US ON
         <ul className="list-reset" style={{listStyleType:"none", display:"flex", padding:"0"}}>
        
@@ -70,7 +70,7 @@ function App() {
          </a>
        </li>
      </ul>
-        </div>
+      
       </header>
     </div>
   );
