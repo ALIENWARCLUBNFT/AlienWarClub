@@ -21,7 +21,7 @@ function App() {
         <ul className="list-reset" style={{listStyleType:"none", display:"flex", padding:"0"}}>
        
        <li>
-         <a href="https://mobile.twitter.com/alienwarclub" target="_blank" style={{background:"white", borderRadius:"50%", padding:"20px", display:"flex", justifyContent:"center", marginRight:"10px"}}>
+         <a href="https://mobile.twitter.com/alienwarclub"  rel="noopener noreferrer" target="_blank" style={{background:"white", borderRadius:"50%", padding:"20px", display:"flex", justifyContent:"center", marginRight:"10px"}}>
            <svg
              width="50"
              height="50"
@@ -35,7 +35,7 @@ function App() {
          </a>
        </li>
        <li>
-         <a href="https://discord.gg/8pZwjFVF" target="_blank" style={{background:"white", borderRadius:"50%", padding:"20px", display:"flex", justifyContent:"center"}}>
+         <a href="https://discord.gg/8pZwjFVF"  rel="noopener noreferrer" target="_blank" style={{background:"white", borderRadius:"50%", padding:"20px", display:"flex", justifyContent:"center"}}>
            {/* <svg
              width="16"
              height="16"
