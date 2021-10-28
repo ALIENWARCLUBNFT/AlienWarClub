@@ -8,7 +8,7 @@ const FaqC = () => {
     title: "F.A.Qs",
     rows: [
       {
-        title: "What is Alienwarclub",
+        title: "WHAT IS ALIEN WAR CLUB",
         content:
           "AWC is a Unique NFT collection of Alien warriors with Play-To-Earn, Stake-To-Earn and Hold-To-Earn features powered by the Solana Blockchain.",
       },
@@ -85,7 +85,7 @@ const FaqC = () => {
           "Yes our community will collaborate with other projects to give out some of our NFTs when it’s release.   ",
       },
       {
-        title: "How Does Rarity System Works?",
+        title: "HOW DOES RARITY WORKS?",
         content:
           "The Rarity sheet will be realised prior to minting",
       },

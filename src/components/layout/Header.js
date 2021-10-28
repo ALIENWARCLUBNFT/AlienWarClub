@@ -114,7 +114,7 @@ const Header = ({
                   >
                     <li>
                       <a href="/#why" onClick={closeMenu}>
-                        Features?
+                        Features
                       </a>
                     </li>
                     <li>
