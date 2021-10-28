@@ -136,6 +136,7 @@ const Header = ({
                           className="button button-primary button-wide-mobile button-sm"
                           onClick={closeMenu}
                           target="_blank"
+                          rel="noreferrer"
                         >
                           Discord
                         </a>

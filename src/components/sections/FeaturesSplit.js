@@ -3,7 +3,7 @@ import React from "react";
 import classNames from "classnames";
 import { SectionSplitProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
-import Image from "../elements/Image";
+// import Image from "../elements/Image";
 
 // import step_img_1 from "./../../assets/images/icons/01.png";
 // import step_img_2 from "./../../assets/images/icons/02.png";
@@ -11,7 +11,7 @@ import Image from "../elements/Image";
 // import step_img_4 from "./../../assets/images/icons/05.png";
 // import step_img_5 from "./../../assets/images/icons/05.png";
 // import step_img_6 from "./../../assets/images/icons/06.png";
-import Aos from "aos";
+// import Aos from "aos";
 import "aos/dist/aos.css";
 
 const propTypes = {
@@ -45,18 +45,18 @@ const FeaturesSplit = ({
     className
   );
 
-  const innerClasses = classNames(
-    "features-split-inner section-inner",
-    topDivider && "has-top-divider",
-    bottomDivider && "has-bottom-divider"
-  );
+  // const innerClasses = classNames(
+  //   "features-split-inner section-inner",
+  //   topDivider && "has-top-divider",
+  //   bottomDivider && "has-bottom-divider"
+  // );
 
-  const splitClasses = classNames(
-    "split-wrap",
-    invertMobile && "invert-mobile",
-    invertDesktop && "invert-desktop",
-    alignTop && "align-top"
-  );
+  // const splitClasses = classNames(
+  //   "split-wrap",
+  //   invertMobile && "invert-mobile",
+  //   invertDesktop && "invert-desktop",
+  //   alignTop && "align-top"
+  // );
 
   const sectionHeader = {
     title: "RoadMap",

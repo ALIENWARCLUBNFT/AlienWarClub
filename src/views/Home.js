@@ -1,14 +1,14 @@
 import React from "react";
-// import sections
+
 import Hero from "../components/sections/Hero";
 import FeaturesTiles from "../components/sections/FeaturesTiles";
 import FeaturesSplit from "../components/sections/FeaturesSplit";
 import About from "../components/sections/About";
 
-import Cta from "../components/sections/Cta";
+// import Cta from "../components/sections/Cta";
 import Sector from "../components/sections/Sector";
 import FaqC from "../components/sections/Faq"
-// import Slider from "../components/sections/Slider";
+
 
 
 

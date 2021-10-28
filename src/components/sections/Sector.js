@@ -1,8 +1,8 @@
 import React from "react";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
-import ButtonGroup from "../elements/ButtonGroup";
-import Button from "../elements/Button";
+// import ButtonGroup from "../elements/ButtonGroup";
+// import Button from "../elements/Button";
 // import step_img_1 from "./../../assets/images/Team 1.png";
 
 
@@ -45,11 +45,11 @@ const Sector = ({
     className
   );
 
-  const innerClasses = classNames(
-    " section-inner",
-    topDivider && "has-top-divider",
-    bottomDivider && "has-bottom-divider"
-  );
+  // const innerClasses = classNames(
+  //   " section-inner",
+  //   topDivider && "has-top-divider",
+  //   bottomDivider && "has-bottom-divider"
+  // );
 
   return (
     <section

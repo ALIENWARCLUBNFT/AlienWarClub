@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 // import ButtonGroup from "../elements/ButtonGroup";
 // import Button from "../elements/Button";
-import Image from "../elements/Image";
-import Modal from "../elements/Modal";
+// import Image from "../elements/Image";
+// import Modal from "../elements/Modal";
 // import video from "./../../assets/images/video-placeholder.jpg";
 // import { Demo } from "../../Demo";
-import Appdemo from "../../Appdemo";
+// import Appdemo from "../../Appdemo";
 import gif from "../../assets/images/AWC.gif"
 import icon from "../../assets/images/icon.svg"
 
@@ -32,17 +32,17 @@ const About = ({
   invertColor,
   ...props
 }) => {
-  const [videoModalActive, setVideomodalactive] = useState(false);
 
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  };
 
-  const closeModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  };
+  // const openModal = (e) => {
+  //   e.preventDefault();
+  //   setVideomodalactive(true);
+  // };
+
+  // const closeModal = (e) => {
+  //   e.preventDefault();
+  //   setVideomodalactive(false);
+  // };
 
   const outerClasses = classNames(
     "about section center-content",
@@ -86,7 +86,7 @@ Our mission is to bring game enthusiasts from all solana communities and pay the
             <br/>
                 {/* <Appdemo /> */}
                 {/* <a href="https://discord.gg/8pZwjFVF">JOIN US</a> */}
-                <a href="https://discord.gg/alienwarclub" class="button-mint button-primary button-wide-mobile button-lg" target="_blank">MINTING HAS NOT STARTED <br/> JOIN DISCORD <img src={icon} style={{height:"20px", display:"inline", verticalAlign:"middle"}}></img></a>
+                <a href="https://discord.gg/alienwarclub" class="button-mint button-primary button-wide-mobile button-lg" target="_blank" rel="noreferrer">MINTING HAS NOT STARTED <br/> JOIN DISCORD <img src={icon} style={{height:"20px", display:"inline", verticalAlign:"middle"}}></img></a>
             
           </div>
          

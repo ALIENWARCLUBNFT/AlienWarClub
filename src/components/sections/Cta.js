@@ -4,7 +4,7 @@ import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
 
-import Input from "../elements/Input";
+
 
 
 const propTypes = {

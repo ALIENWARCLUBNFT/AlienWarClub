@@ -9,7 +9,7 @@ const FooterSocial = ({ className, ...props }) => {
       <ul className="list-reset">
        
         <li>
-          <a href="https://mobile.twitter.com/alienwarclub" target="_blank">
+          <a href="https://mobile.twitter.com/alienwarclub" target="_blank" rel="noreferrer">
             <svg
               width="16"
               height="16"
