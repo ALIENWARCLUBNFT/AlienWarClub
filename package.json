@@ -21,7 +21,7 @@
     "scripts": {
         "clean": "shx rm -rf build/*",
         "start": "react-scripts start",
-        "build": "CI=false && react-scripts build",
+        "build": "npm run build",
         "test": "craco test"
     },
     "dependencies": {
