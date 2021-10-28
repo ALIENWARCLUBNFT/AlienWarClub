@@ -1,6 +1,6 @@
 {
     "homepage": ".",
-    "name": "@Alien-War-Club-NFT",
+    "name": "@solana/wallet-adapter-example",
     "version": "0.9.3",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",
