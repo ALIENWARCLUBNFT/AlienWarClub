@@ -1,63 +1,169 @@
-.App {
-  text-align: center;
- 
-  /* height: 100vh; */
+.MuiTable-root {
+  width: 38% !important;
+  margin: 0 auto;
 }
-
-.App-logo {
-  /* height: 60vmin; */
-  pointer-events: none;
+.MuiButton-root {
+  padding: 12px 90px !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin  2s linear;
-  }
+.MuiButton-containedPrimary-10 {
+  background-color: purple !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  background: url(Assets/bg2.gif);
+.wallet-adapter-button {
+  line-height: 20px;
+  white-space: nowrap;
+  padding: 0 80px !important;
+}
+.faq-row-wrapper {
+  padding: 50px 150px;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(assets/images/rock.jpg); */
+  background-repeat: no-repeat;
   background-size: cover;
 }
-
-.App-link {
-  color: #ffffff;
-  font-size: 50px;
-  text-decoration: none;
-  margin: 0;
+.styles_faq-row-wrapper__3vA1D
+  .styles_row-body__1NvUo
+  .styles_faq-row__2YF3c
+  .styles_row-content__QOGZd
+  .styles_row-content-text__2sgAB {
+  padding: 10px 20px !important;
+  font-family: 'Reggae One', cursive;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.styles_faq-row-wrapper__3vA1D
+  .styles_row-body__1NvUo
+  .styles_faq-row__2YF3c
+  .styles_row-title__1YiiY.styles_no-tabfocus__1HmyD {
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  font-family: 'Reggae One', cursive;
+}
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-content__QOGZd .styles_row-content-text__2sgAB {
+  color: white !important;
+}
+.styles_faq-row-wrapper__3vA1D {
+  background-color: purple !important;
+}
+/* .styles_faq-row-wrapper__3vA1D
+  .styles_row-body__1NvUo
+  .styles_faq-row__2YF3c
+  .styles_row-title__1YiiY
+  .styles_icon-wrapper__2cftw
+  svg {
+  fill: white !important;
+} */
+.header-nav a:not(.button):hover, .header-nav a:not(.button):active {
+  /* color: darkgray !important;
+   */
+   text-shadow: 2px 3px 7px deeppink, 0 3px 1px deeppink;
+}
+.styled__text h2, .styles_faq-row-wrapper__3vA1D h2 {
+  margin: 40px auto;
+  font-family: 'Orbitron', sans-serif;
+  /* font-size: 70px; */
+  font-weight: bold;
+  color: purple !important;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: 2px 3px 7px white, 0 3px 1px white;
+}
+.strategy-title {
+  /* margin: 40px auto; */
+  font-family: 'Orbitron', sans-serif;
+  /* font-size: 70px; */
+  font-weight: bold;
+  color: black !important;
+  text-transform: uppercase;
+  /* text-align: center; */
+  letter-spacing: 2px;
+  /* text-shadow: 2px 3px 0px white, 0 10px 1px #ff6171cc; */
+  /* text-shadow: 2px 3px 0px white, 0 10px 1px #ffffff; */
+}
+.about-content {
+  padding-right: 30px;
+}
+.about-gif {
+  border-radius: 50%;
+  width: 100%;
+}
+.faq-title h2 {
+  color: white !important;
+  /* text-shadow: 2px 3px 7px #331934, 0 3px 1px #6b6dff; */
+  text-shadow: 2px 3px 7px deeppink, 0 3px 1px deeppink;
+}
+.button-mint:hover{
+  background-color: deeppink !important;
+}
+@media only screen and (max-width: 760px) {
+  .faq-row-wrapper {
+    padding: 50px 100px;
   }
-  to {
-    transform: rotate(360deg);
+  .about-gif {
+    border-radius: 50%;
+    width: 50%;
+  }
+  .about-image {
+    order: -1;
+    padding: 25px 0px;
   }
 }
-
-@media only screen and (max-width:1000px){
-  .joinText{
-    line-height: 100px;
+@media only screen and (max-width: 610px) {
+  .MuiTable-root {
+    margin: 0 auto;
+  }
+  .MuiTableRow-root {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .MuiTableCell-root {
+    padding: 16px 0px !important;
+    margin: 0 auto;
+    border: 0;
+  }
+  th:first-child,
+  td:first-child {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    border: 0;
+  }
+  th:last-child,
+  td:last-child {
+    border: 0;
   }
 }
-@media only screen and (max-width:700px){
-  .text-container {
-    padding: 57px 0px;
-
+@media only screen and (min-width: 600px) {
+ 
+    h2,
+    .h2 {
+      @include font-size(h2-desktop);
+    }
+    .styles_faq-row-wrapper__3vA1D h2{
+      font-size: 44px !important;
+      margin: 0 auto !important;
+      margin-bottom: 20px !important;
+    }
+  
+  
+}
+@media only screen and (max-width: 512px) {
+  .faq-row-wrapper {
+    padding: 50px 20px;
   }
-  .App-header {
-    height: 100vh;
+  .styled__text h2, .styles_faq-row-wrapper__3vA1D h2 {
+    margin: 0 auto;
   }
-  .App-link {
-    font-size: 33px;
+  .about-content {
+    padding-right: 0;
+  }
+  .about-gif {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .button-mint {
+    font-size: 15px;
   }
 }

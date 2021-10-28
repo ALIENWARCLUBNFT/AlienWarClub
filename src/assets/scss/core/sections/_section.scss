@@ -1,0 +1,39 @@
+.section-inner {
+  position: relative; // To always display inner elements above pseudo decorative stuff
+  padding-top: $section--padding__mobile;
+  padding-bottom: $section--padding__mobile;
+}
+
+.section-header {
+  padding-bottom: $section-header--padding__mobile;
+  padding-bottom: 80px;
+}
+.section-header.wakanda {
+  padding-bottom: 30px;
+}
+.section-text {
+  color: white;
+                  font-size:24px;
+                line-height: 36px;
+}
+@include media(">medium") {
+  .section-inner {
+    padding-top: $section--padding__desktop;
+    padding-top: 140px;
+    padding-bottom: $section--padding__desktop;
+  }
+
+  .section-header {
+    padding-bottom: $section-header--padding__desktop;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .section-inner {
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .section-text {
+    font-size: 17px;
+  }
+}

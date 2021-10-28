@@ -1,0 +1,129 @@
+.hero {
+  background: url(../../../images/Website-banner.png);
+  height: 100vh;
+  text-align: center;
+  // background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 1)),url(../../../images/hero.jpg);
+
+  background-position: bottom center;
+  background-size: cover;
+  // opacity: 0.5;
+  // mix-blend-mode: color-dodge;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  .section-inner {
+    padding-top: $hero--padding-t__mobile;
+    padding-bottom: $hero--padding-b__mobile;
+   
+   
+  }
+  &-content p, h3 {
+    font-family: 'Reggae One', cursive;
+  }
+
+}
+.hero-item {
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 50%;
+
+  & img {
+    border-radius: 50%;
+  }
+}
+
+.hero-special {
+  // background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../../../images/OIP.jpg);
+background-repeat: no-repeat;
+
+}
+
+.sector-special {
+  // background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  // url(../../../images/footer.jpg);
+  // background-image: 
+  // url(../../../images/rock.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.hero-inner {
+  // Affects only hero full
+  > .hero-content + .hero-figure,
+  > .hero-figure + .hero-content {
+    margin-top: $hero--inner-padding-v_mobile;
+    z-index: -1;
+  }
+
+  > .hero-figure {
+    > a {
+      display: inline-flex;
+      // prevents stretching
+      align-items: center;
+      vertical-align: top;
+    }
+  }
+}
+
+@include media("<=medium") {
+  .hero {
+    .split-wrap {
+      .split-item {
+        .split-item-content {
+          margin-bottom: $hero--inner-padding-v_mobile;
+        }
+      }
+
+      &.invert-mobile {
+        .split-item {
+          .split-item-image {
+            margin-bottom: $hero--inner-padding-v_mobile;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media(">medium") {
+  .hero {
+    .section-inner {
+      padding-top: $hero--padding-t__desktop;
+      padding-bottom: $hero--padding-b__desktop;
+    }
+  }
+
+  .hero-inner {
+    // Affects only hero full
+    > .hero-content + .hero-figure,
+    > .hero-figure + .hero-content {
+      margin-top: $hero--inner-padding-v_desktop;
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+  .hero-item {
+   width: 35%;
+  }
+  .hero {
+    height: 70vh;
+  }
+
+}
+@media only screen and (max-width: 760px) {
+  .hero{
+   height: 50vh;
+  }
+
+}
+@media only screen and (max-width: 512px) {
+  .hero-item {
+   width: 46%;
+  }
+
+}
+
+@media only screen and (max-width: 460px) {
+  .hero-item {
+   width: 52%;
+  }
+
+}

@@ -1,0 +1,9 @@
+.features-tiles-item-image {
+  display: inline-flex;
+  border-radius: 50%;
+  color: get-color(primary, 3);
+  position: absolute;
+  top: -64px;
+  left: 50%;
+  transform: translateX(-50%);
+}
