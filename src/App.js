@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, FC } from "react";
+import React, { useRef, useEffect} from "react";
 import { useLocation, Switch } from "react-router-dom";
 import AppRoute from "./utils/AppRoute";
 import ScrollReveal from "./utils/ScrollReveal";
@@ -68,7 +68,7 @@ const App = () => {
   let location = useLocation();
 
   useEffect(() => {
-    const page = location.pathname;
+    // const page = location.pathname;
     document.body.classList.add("is-loaded");
     Aos.init({
       duration: 2000,
